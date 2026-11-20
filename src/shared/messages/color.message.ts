@@ -1,0 +1,15 @@
+export const COLOR_MESSAGE = {
+    COLOR_CREATED: "Color {name} creado",
+    COLOR_ERROR_CREATED: "Error al crear la color",
+    COLOR_NOT_FOUND: "Color no encontrado",
+    COLOR_FOUND: "Color encontrado",
+    COLOR_UPDATED: "Color editado",
+    COLOR_READY_EXIST: "Color {name} ya existente",
+    COLOR_ERROR_UPDATED: "Error al editar el color",
+    COLOR_PAGINATE: "Colores paginados",
+    COLOR_ERROR_PAGINATE: "Error al paginar colores",
+    COLOR_READY_DISABLE: "Color actualmente deshabilitado",
+    COLOR_READY_ENABLE: "Color actualmente habilitado",
+    COLOR_DISABLE: "Color deshabilitado",
+    COLOR_ENABLE: "Color habilitado",
+}

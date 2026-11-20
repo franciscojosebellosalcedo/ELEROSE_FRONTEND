@@ -13,6 +13,8 @@ export const NAME_OPTION = {
     products: "Productos",
     materials: "Insumos",
     warehouses: "Almacenes",
+    colors: "Colores",
+    sizes: "Tallas",
 }
 
 export const NAME_ACTION = {

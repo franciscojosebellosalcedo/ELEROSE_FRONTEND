@@ -2,7 +2,7 @@ import { useEffect, type FC } from "react"
 import { useAntiSpam } from "./use.antispam"
 
 type Props = {
-    onEnter?: () => void
+    onEnter?: (e: KeyboardEvent) => void
     withStopPropagation?: boolean
     withPreventDefault?: boolean
 }
@@ -24,7 +24,9 @@ export const useKeyBoardEvent : FC<Props> =  ({
                 if( withPreventDefault ) e.preventDefault();
                 if( withStopPropagation ) e.stopPropagation();
 
-                runWithLock( onEnter );
+                runWithLock( () =>{
+                    onEnter( e )
+                } );
 
             };
 

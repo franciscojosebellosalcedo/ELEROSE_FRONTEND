@@ -3,6 +3,8 @@ import CategoryPages from "./CategoryPages";
 import ClientPages from "./ClientsPages";
 import ProductPages from "./ProductPages";
 import MaterialPages from "./MaterialPages";
+import ColorPages from "./ColorPages";
+import SizePages from "./SizePages";
 
 const IndexPages : RouteObject = {
 
@@ -12,7 +14,9 @@ const IndexPages : RouteObject = {
         CategoryPages,
         ClientPages,
         ProductPages,
-        MaterialPages
+        MaterialPages,
+        ColorPages,
+        SizePages
     ]
 }
 

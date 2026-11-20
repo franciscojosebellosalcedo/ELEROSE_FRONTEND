@@ -1,0 +1,15 @@
+export const SIZE_MESSAGE = {
+    SIZE_CREATED: "Talla {description} creada",
+    SIZE_ERROR_CREATED: "Error al crear la talla",
+    SIZE_NOT_FOUND: "Talla no encontrada",
+    SIZE_FOUND: "Talla encontrada",
+    SIZE_UPDATED: "Talla editada",
+    SIZE_READY_EXIST: "Talla {description} ya existente",
+    SIZE_ERROR_UPDATED: "Error al editar la talla",
+    SIZE_PAGINATE: "Tallas paginadas",
+    SIZE_ERROR_PAGINATE: "Error al paginar tallas",
+    SIZE_READY_DISABLE: "Talla actualmente deshabilitada",
+    SIZE_READY_ENABLE: "Talla actualmente habilitada",
+    SIZE_DISABLE: "Talla deshabilitada",
+    SIZE_ENABLE: "Talla habilitada",
+}
